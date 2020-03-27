@@ -4,16 +4,16 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="c2abfc2355a54781adc07a6e65706e43" Name="Diagram1">
-        <EntityTypeShape EntityType="DBQUIZModel.sysdiagram" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBQUIZModel.TBL_ADMIN" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBQUIZModel.TBL_QUESTIONS" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBQUIZModel.TBL_SETEXAQM" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBQUIZModel.TBL_STUDENT" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
-        <AssociationConnector Association="DBQUIZModel.FK__TBL_SETEX__EXAM___1BFD2C07" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="DBQUIZModel.TBL_categroy" Width="1.5" PointX="5" PointY="8.625" />
-        <AssociationConnector Association="DBQUIZModel.FK__TBL_categ__cat_f__36B12243" />
-        <AssociationConnector Association="DBQUIZModel.FK__TBL_QUEST__q_fk___38996AB5" />
+      <Diagram DiagramId="55611c36478846e487b71b4e9a1d9980" Name="Diagram1">
+        <EntityTypeShape EntityType="DBQUIZModel.TBL_ADMIN" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBQUIZModel.TBL_categroy" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBQUIZModel.TBL_QUESTIONS" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBQUIZModel.TBL_SETEXAM" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBQUIZModel.TBL_STUDENT" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="DBQUIZModel.FK__TBL_categ__cat_F__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="DBQUIZModel.FK__TBL_QUEST__q_fk___59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="DBQUIZModel.FK__TBL_SETEX__EXAM___5535A963" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBQUIZModel.sysdiagram" Width="1.5" PointX="5.375" PointY="4.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

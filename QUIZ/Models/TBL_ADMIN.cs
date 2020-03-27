@@ -21,7 +21,7 @@ namespace QUIZ.Models
         }
     
         public int AD_ID { get; set; }
-        public string AD_NAME { get; set; }
+        public string AD_Name { get; set; }
         public string AD_PASSWORD { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

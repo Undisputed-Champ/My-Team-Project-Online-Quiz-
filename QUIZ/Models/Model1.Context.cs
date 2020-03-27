@@ -13,10 +13,10 @@ namespace QUIZ.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DBQUIZEntities : DbContext
+    public partial class DBQUIZEntities1 : DbContext
     {
-        public DBQUIZEntities()
-            : base("name=DBQUIZEntities")
+        public DBQUIZEntities1()
+            : base("name=DBQUIZEntities1")
         {
         }
     
@@ -25,11 +25,11 @@ namespace QUIZ.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<TBL_ADMIN> TBL_ADMIN { get; set; }
-        public virtual DbSet<TBL_QUESTIONS> TBL_QUESTIONS { get; set; }
-        public virtual DbSet<TBL_SETEXAQM> TBL_SETEXAQM { get; set; }
-        public virtual DbSet<TBL_STUDENT> TBL_STUDENT { get; set; }
         public virtual DbSet<TBL_categroy> TBL_categroy { get; set; }
+        public virtual DbSet<TBL_QUESTIONS> TBL_QUESTIONS { get; set; }
+        public virtual DbSet<TBL_SETEXAM> TBL_SETEXAM { get; set; }
+        public virtual DbSet<TBL_STUDENT> TBL_STUDENT { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
     }
 }

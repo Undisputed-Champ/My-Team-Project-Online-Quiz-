@@ -12,13 +12,15 @@
     <div class="row">
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="height:900px;border:1px solid gray;background-color:gray">
 
-          <div class="list-group">
-              <a href="#" class="list-group-item">Report</a>
+            <div class="list-group">
+                @Html.ActionLink("Add Categroy", "AddCategroy", new { @class = "list-group-item" })
+                @Html.ActionLink("Add Questions", "Addquestions", new { @class = "list-group-item" })
+                @Html.ActionLink("Report", "Dashboard", new { @class = "list-group-item" })
 
-              <a href="#" class="list-group-item">Add a new categroy</a>
-              <a href="#" class="list-group-item">Add a new Question</a>
+                @Html.ActionLink("LOGOUT", "LOGOUT", new { @class = "list-group-item" })
 
-        </div>
+
+            </div>
     </div>
     <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" style="height:900px;border:1px solid gray">
 

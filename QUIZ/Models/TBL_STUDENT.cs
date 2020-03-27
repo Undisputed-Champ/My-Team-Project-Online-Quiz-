@@ -17,7 +17,7 @@ namespace QUIZ.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public TBL_STUDENT()
         {
-            this.TBL_SETEXAQM = new HashSet<TBL_SETEXAQM>();
+            this.TBL_SETEXAM = new HashSet<TBL_SETEXAM>();
         }
     
         public int S_ID { get; set; }
@@ -26,6 +26,6 @@ namespace QUIZ.Models
         public string S_IMAGE { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TBL_SETEXAQM> TBL_SETEXAQM { get; set; }
+        public virtual ICollection<TBL_SETEXAM> TBL_SETEXAM { get; set; }
     }
 }

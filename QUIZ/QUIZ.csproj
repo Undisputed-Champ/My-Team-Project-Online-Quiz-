@@ -154,6 +154,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\cyptop.cs" />
     <Compile Include="Models\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -181,7 +182,7 @@
     <Compile Include="Models\TBL_QUESTIONS.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\TBL_SETEXAQM.cs">
+    <Compile Include="Models\TBL_SETEXAM.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\TBL_STUDENT.cs">
@@ -192,14 +193,16 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\wp3977772-mortal-kombat-logo-wallpapers.jpg" />
+    <Content Include="Content\img\wp5384983-anime-for-phone-wallpapers.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
       <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Models\Model1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -248,6 +251,11 @@
     <Content Include="Views\Home\Dashboard.cshtml" />
     <Content Include="Views\Shared\_Layout2.cshtml" />
     <Content Include="Views\Home\AddCategroy.cshtml" />
+    <Content Include="Views\Home\Addquestions.cshtml" />
+    <Content Include="Views\Home\sregister.cshtml" />
+    <Content Include="Views\Home\StudentExam.cshtml" />
+    <Content Include="Views\Home\QuizStart.cshtml" />
+    <Content Include="Views\Home\EndExam.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

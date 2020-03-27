@@ -11,8 +11,7 @@ namespace QUIZ.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class TBL_categroy
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -20,12 +19,11 @@ namespace QUIZ.Models
         {
             this.TBL_QUESTIONS = new HashSet<TBL_QUESTIONS>();
         }
-
+    
         public int cat_id { get; set; }
-        [Display (Name="SUBJECT")]
-        [Required(ErrorMessage="*")]
         public string cat_name { get; set; }
-        public Nullable<int> cat_fk_adid { get; set; }
+        public Nullable<int> cat_FK_adid { get; set; }
+        public string cat_encyptedstring { get; set; }
     
         public virtual TBL_ADMIN TBL_ADMIN { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

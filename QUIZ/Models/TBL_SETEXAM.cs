@@ -12,7 +12,7 @@ namespace QUIZ.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class TBL_SETEXAQM
+    public partial class TBL_SETEXAM
     {
         public int EXAM_ID { get; set; }
         public Nullable<System.DateTime> EXAM_DATE { get; set; }

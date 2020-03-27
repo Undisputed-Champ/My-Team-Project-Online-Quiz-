@@ -37,16 +37,18 @@
     <table class="table-responsive">
         <thead>
             <tr>
-                <th>ID</th>
+                <th style="white-space:pre">ID</th>
                 <th>Name</th>
+                <th>Room Name</th>
                 </tr>
             </thead>
      <tbody>
          @foreach(var item in ViewData["list"] as List<QUIZ.Models.TBL_categroy>)
          {
              <tr>
-                 <td>@item.cat_id</td>
+                 <td>@item.cat_id</td><p> </p>
                  <td>@item.cat_name</td>
+                 <td>@item.cat_encyptedstring</td>
                  </tr>
          }
          </tbody>
